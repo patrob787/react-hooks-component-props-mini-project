@@ -7,10 +7,10 @@ function ArticleList( {posts} ) {
     return <Article key={post.id} title={post.title} date={post.date} preview={post.preview} minutes={post.minutes} />
    })
   
-    return (
-    <main>
-        {articleArray}
-    </main>
+    return (  
+        <main>
+            {articleArray}
+        </main>
   )
 }
 
