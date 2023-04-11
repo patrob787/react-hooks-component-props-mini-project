@@ -2,7 +2,7 @@ import React from 'react'
 
 function Article( {
     title, 
-    date = new Date(null).toString(), 
+    date = 'January 1, 1970', 
     preview,
     minutes,
 } ) {
