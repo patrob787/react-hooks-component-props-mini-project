@@ -8,11 +8,9 @@ function ArticleList( {posts} ) {
    })
   
     return (
-    <div>
-        <main>
-            {articleArray}
-        </main>
-    </div>
+    <main>
+        {articleArray}
+    </main>
   )
 }
 

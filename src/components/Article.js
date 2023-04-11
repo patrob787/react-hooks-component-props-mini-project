@@ -24,11 +24,11 @@ function Article( {
     console.log(emojiCount)
 
   return (
-    <div>
+    <article>
         <h3>{title}</h3>
         <small>{date} - {emojiCount} {minutes} minute read.</small>
         <p>{preview}</p>
-    </div>
+    </article>
   )
 }
 
